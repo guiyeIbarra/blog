@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(4, 4, 4);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+ 
+header {
+    width: 100%;
+    background-color: rgb(6, 6, 6);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-top: 70px;
+}
+
+h2 {
+    background-color: rgb(255, 252, 55);
+    text-align: center;
+    font-size: 38px;
+    margin-top: 75px;
+    width: auto;
+}
+
+.bio {
+    height: 540px;
+    width: 80%;
+    padding: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+}
+
+.hr {
+    color: rgb(255, 252, 55);
+    border: solid 4px;
+}
+
+.izquierda {
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 15%;
+    padding-bottom: 40px;
+}
+
+.derecha {
+    width: 40%;
+    text-align: center;
+}
+
+.article {
+    
+    width: 80%;
+    margin: auto;
+    box-sizing:border-box;
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+
+.article p {
+    color: white;
+    font-size: 22px;
+    padding: 13px;
+}
+
+.VerMas {
+    color: rgb(239, 208, 28);
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 35px;
+    
+    }
+
+.VerMas:hover {
+    background-color:rgb(29, 27, 24);
+}
