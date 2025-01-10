@@ -67,7 +67,7 @@ h2 {
 .article p {
     color: white;
     font-size: 22px;
-    text-align: center;
+    text-align:center;
     width: 100%;
 }
 
@@ -83,4 +83,38 @@ footer {
     text-align: center;
     margin: 20px;
     background-color: transparent;
+}
+
+#btn1:hover,
+#btn2:hover,
+#btn3:hover,
+#btn4:hover,
+#btn5:hover,
+#btn6:hover {
+    background-color: rgb(249, 249, 50);
+}
+
+@media (min-width: 1250px) {
+    h1 {
+       margin-top: 8px;
+    }
+    h2 {
+        width: 30%;
+        margin: auto;
+        margin-top: 1%;
+    }
+    .izquierda {
+        width: 50%;
+        margin-top: -60px;
+    }
+    .derecha {
+        width: 20%;
+        position: absolute;
+        margin-left: 200px;
+        margin-top: -30px;
+    }
+    hr {
+        margin-top: -295px;
+    }
+    
 }
