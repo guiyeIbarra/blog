@@ -1,5 +1,5 @@
 * {
-    margin: 0px;
+    margin: 7px;
     padding: 0px;
     background-color: rgb(4, 4, 4);
 }
@@ -115,6 +115,10 @@ footer {
     }
     hr {
         margin-top: -285px;
+    }
+    .tres {
+        display: flex;
+        justify-content: center;
     }
     
 }
