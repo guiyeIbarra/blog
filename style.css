@@ -39,8 +39,7 @@ h2 {
 }
 
 .hr {
-    border: 5px solid, 
-    border 5px solid;
+    border: 2px solid;
     border-color: rgb(250, 248, 134);
 }
 
@@ -104,17 +103,18 @@ footer {
         margin-top: 1%;
     }
     .izquierda {
-        width: 50%;
-        margin-top: -60px;
+        width: 40%;
+        margin-top: -45px;
     }
     .derecha {
         width: 20%;
         position: absolute;
+        font-size: 22px;
         margin-left: 200px;
         margin-top: -30px;
     }
     hr {
-        margin-top: -295px;
+        margin-top: -285px;
     }
     
 }

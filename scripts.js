@@ -1,4 +1,21 @@
 
+let hola = document.querySelector(".text");
+   texto ="Hola, mi nombre es Guillermo Ibarra, y cuando me preguntan a que me dedico, lo primero que pienso es: soy bajista; aunque no vivo de ello, y no tengo el talento extraordinario de los grandes maestros del instrumento, he aprendido muchas cosas en todos estos años que me gustaría compartir con ustedes.";
+
+   function efecto(elemento, texto, i = 0) {
+    elemento.textContent += texto[i];
+
+    if(i === texto.length-1) return;
+
+    setTimeout(() => efecto(hola,texto, i + 1), 40);
+   }
+
+   efecto(hola, texto);
+
+
+
+
+
 let btn1 = document.getElementById("btn1");
 let estilos = document.getElementById("estilos"); 
 
