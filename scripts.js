@@ -1,4 +1,4 @@
-
+//Aparecen las letras de una en una, en efecto "escritura a máquina"
 let hola = document.querySelector(".text");
    texto ="Hola, mi nombre es Guillermo Ibarra, y cuando me preguntan a que me dedico, lo primero que pienso es: soy bajista; aunque no vivo de ello, y no tengo el talento extraordinario de los grandes maestros del instrumento, he aprendido muchas cosas en todos estos años que me gustaría compartir con ustedes.";
 
@@ -7,12 +7,11 @@ let hola = document.querySelector(".text");
 
     if(i === texto.length-1) return;
 
-    setTimeout(() => efecto(hola,texto, i + 1), 40);
+    setTimeout(() => efecto(hola,texto, i + 1), 60);
    }
 
    efecto(hola, texto);
-
-
+//------------//
 
 
 
@@ -35,7 +34,8 @@ let btn6 = document.getElementById("btn6");
 let estudio = document.getElementById("estudio");
 
 btn1.addEventListener("click", function () {
-    estilos.textContent = "Desde mis comienzos en la música, a partir de los 14 años, me ha tocado participar en grupos y proyectos de variados estilos: rock, pop, folclore, tango, fusión, cumbia, cuarteto, etc. Esto en gran parte se debía a que era el único bajista disponible, y si bien siempre me ha interesado conocer y aprender todo tipo de música, muchas veces se trataba de trabajo remunerado. Debo aclarar que aunque tengo preferencias sobre algunos estilos, nunca traté con arrogancia a los que no comparten mis gustos, y eso me permitió conocer mucha gente y compartir grandes momentos. Aunque he tocado estilos que no me agradaban, siempre trabajé en función de la música y de las canciones, buscando el mejor sonido que podía interpretar, y disfrutando mucho cuando todo el conjunto empezaba a sonar"; 
+    
+    estilos.textContent = "Desde mis comienzos en la música, a partir de los 14 años, he participado en grupos y proyectos de variados estilos: rock, pop, folclore, tango, fusión, cumbia, cuarteto, etc. Esto en gran parte se debía a que era el único bajista disponible, y si bien siempre me ha interesado conocer y aprender todo tipo de música, muchas veces se trataba de trabajo remunerado. Debo aclarar que aunque tengo preferencias sobre algunos estilos, nunca traté con arrogancia a los que no comparten mis gustos, y eso me permitió conocer mucha gente y compartir grandes momentos. Aunque he tocado estilos que no me agradaban, siempre trabajé en función de la música y de las canciones, buscando el mejor sonido que podía interpretar, y disfrutando mucho cuando todo el conjunto empezaba a sonar"; 
 });
 estilos.addEventListener("click", function () {
     estilos.textContent = ""; 
