@@ -7,7 +7,7 @@ let hola = document.querySelector(".text");
 
     if(i === texto.length-1) return;
 
-    setTimeout(() => efecto(hola,texto, i + 1), 60);
+    setTimeout(() => efecto(hola,texto, i + 1), 40);
    }
 
    efecto(hola, texto);
