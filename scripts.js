@@ -13,6 +13,12 @@ let hola = document.querySelector(".text");
    efecto(hola, texto);
 //------------//
 
+let bio = getElementById("acerca");
+function acerca(click, bio) {
+     swal("Nací en General La Madrid, provincia de Buenos Aires");
+    };
+
+
 
 
 let btn1 = document.getElementById("btn1");

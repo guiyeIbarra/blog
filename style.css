@@ -107,7 +107,10 @@ h2 {
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
-
+#acerca:hover {
+    color: rgb(249, 249, 50);
+    cursor: pointer;
+}
 .hr {
     border: 2px solid;
     border-color: rgb(250, 248, 134);
@@ -170,6 +173,19 @@ footer {
 p:hover {
     color: rgb(249, 249, 50);
 }
+
+.swal-overlay {
+    background-color: rgba(42, 160, 137, 0.45)
+}
+.swal-modal {
+    background-color: black;
+    border: 4px solid yellow;
+}
+.swal-text {
+    color: white;
+    font-size: 22px;
+}
+
 @media (min-width: 1250px) {
     *{
         margin: 0%;
